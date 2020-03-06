@@ -8,6 +8,5 @@ export const removeFeature = item => {
   };
 
 export const buyItem = item => {
-    console.log(item)
     return{type : ADD_FEATURE, payload : item}
   };
